@@ -7,7 +7,7 @@
 All changes done outside of / home will only take effect until the robot is rebooted. In order to do permanent changes, we need to connect the TIAGo robot.
 
 ```
-ssh pal@tiago-146c
+ssh pal@tiago-0c
 Password: pal
 su (get into the root) 
 Password: palroot
