@@ -233,7 +233,7 @@ if __name__ == '__main__':
 
 
 
-# Moving
+# Moving the Robot
 
 ## Key board
 
