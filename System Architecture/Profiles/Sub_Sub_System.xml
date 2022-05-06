@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/systemcomposer_property/2.8 http://schema.mathworks.com/mf0/systemcomposer_services_proxy/1.1">
+  <systemcomposer.property.UnitQueryClientWrapper type="systemcomposer.property.UnitQueryClientWrapper" uuid="4a88c9cd-663d-4414-90b7-adcb0513c4bc"/>
+  <systemcomposer.services.proxy.ModelIdentifier type="systemcomposer.services.proxy.ModelIdentifier" uuid="d3946b7d-89f9-426a-be96-1fc35dbd4b81">
+    <URI>Sub_Sub_System</URI>
+    <modelType>PROFILE_MODEL</modelType>
+  </systemcomposer.services.proxy.ModelIdentifier>
+  <systemcomposer.profile.Profile type="systemcomposer.profile.Profile" uuid="67dc7b3f-3e83-4252-8b09-f96bc873f632">
+    <prototypes type="systemcomposer.profile.Prototype" uuid="e3947ded-526f-4a22-9337-3a90d05b8d97">
+      <appliesTo>Component</appliesTo>
+      <componentHeaderColor type="systemcomposer.profile.RGBValueStruct">
+        <BLUE>184</BLUE>
+        <GREEN>228</GREEN>
+        <RED>210</RED>
+      </componentHeaderColor>
+      <connectorLineColor empty="true"/>
+      <icon>PLANT</icon>
+      <p_Name>SubSubSystem</p_Name>
+      <defaultStereotypeMap type="systemcomposer.profile.DefaultStereotypeMap" uuid="8d6a864f-710e-4575-92b4-908fa4626af1"/>
+      <propertySet type="systemcomposer.property.PropertySet" uuid="fcc6a16c-fe22-4f95-9342-5748e8a4a601">
+        <p_Name>Stereotype</p_Name>
+        <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="9ee16887-81c3-492c-9a3e-a305687ebf6c"/>
+      </propertySet>
+      <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="3c7b5543-15c4-4c90-be9d-e4ece28088e5"/>
+    </prototypes>
+    <valueTypes type="systemcomposer.property.BooleanType" uuid="750de7dd-2717-4ab3-8ee0-8de02ffa5eba">
+      <p_Name>boolean</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.FloatType" uuid="b65e1cdc-5a98-4498-9634-9e5ebb21913a">
+      <max>1.7976931348623157e+308</max>
+      <min>-1.7976931348623157e+308</min>
+      <p_Name>double</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="1ee33c4f-c189-4c7b-b974-b50d9853ecd6">
+      <max>32767</max>
+      <min>-32768</min>
+      <p_Name>int16</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="906384eb-9d1e-48aa-a0e8-449810b85888">
+      <max>2147483647</max>
+      <min>-2147483648</min>
+      <p_Name>int32</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="4e18b106-c456-4a2f-8020-f120121224af">
+      <max>9223372036854775807</max>
+      <min>-9223372036854775808</min>
+      <p_Name>int64</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="b75ef541-4de8-477e-985c-5bd53dadaa29">
+      <max>127</max>
+      <min>-128</min>
+      <p_Name>int8</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.FloatType" uuid="c27e1d12-024d-4afb-98b4-81d94b133b32">
+      <max>3.4028234663852886e+38</max>
+      <min>-3.4028234663852886e+38</min>
+      <p_Name>single</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.StringType" uuid="1ec0b297-74a1-4a57-805d-bebb043739c1">
+      <p_Name>string</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.StringArrayType" uuid="76cd46bf-b473-468c-93fc-6078dc15aa25">
+      <p_Name>stringArray</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="70796d2f-6c93-4a05-b405-b57afa5cd73a">
+      <max>65535</max>
+      <min>0</min>
+      <p_Name>uint16</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="7881a770-8981-4e76-a19a-3e2fb29c7c78">
+      <max>4294967295</max>
+      <min>0</min>
+      <p_Name>uint32</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="a03ea41c-4895-4630-aab7-7ba7bb159e33">
+      <max>9223372036854775807</max>
+      <min>0</min>
+      <p_Name>uint64</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="bdb31c59-ac74-4619-a06b-d8c994af27ce">
+      <max>255</max>
+      <min>0</min>
+      <p_Name>uint8</p_Name>
+    </valueTypes>
+    <p_Name>Sub_Sub_System</p_Name>
+    <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="3a4d7001-3410-42c6-9089-ba9ddac09c9c"/>
+  </systemcomposer.profile.Profile>
+</MF0>
