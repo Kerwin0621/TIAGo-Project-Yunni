@@ -1,0 +1,20 @@
+play_motion: 
+ # actual motions that robot can execute. Normally loaded in a separate file,
+  # to decouple play_motion behavior config (above) from robot-specific motions
+  motions:
+    muevete:
+      joints: [torso_lift_joint, arm_1_joint, arm_2_joint, arm_3_joint, arm_4_joint, arm_5_joint, arm_6_joint, arm_7_joint]
+      points:
+      - positions: [0.19, 1.6, -1.18, -3.16, 2.0, -1.57, -0.07, 0.0]
+        time_from_start: 1.0
+      - positions: [0.19, 1.6, -0.55, -1.35, 1.40, -1.57, -0.07, 0.0]
+        time_from_start: 3.0
+      - positions: [0.16, 1.6, -0.55, 0, 1.03, -1.57, -0.07, 0.0]
+        time_from_start: 7.0
+      meta:
+        name: e
+        usage: demo
+        description: 'e'
+
+
+

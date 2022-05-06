@@ -1,0 +1,13 @@
+<launch>
+
+  <!-- Launch ROS Package Template Node -->
+
+  <rosparam command="load" file="$(find brazo)/config/doubleTree_2.yaml" />
+
+  <node name="correla_furcio_1" pkg="brazo" type="correla_furcio.py" >
+    
+  </node>
+  
+  
+
+</launch>
