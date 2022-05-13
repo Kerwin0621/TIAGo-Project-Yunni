@@ -167,6 +167,7 @@ include_directories(
    scripts/corre_movimiento.py
    scripts/correla_furcio.py
    scripts/inte.py
+   scripts/oneWay_J.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
 
